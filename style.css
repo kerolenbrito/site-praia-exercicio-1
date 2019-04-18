@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+}
+
+.imagem-background{
+	background-image: url("./imagens/background.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    }
+
+.menu{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.menu dd{
+	display: inline-flex;
+	
+}
+
+.menu dd a{
+	color: white;
+	margin: 15px;
+	font-size: 20px;
+}
+
+.menu dd a:hover{
+	color: yellow;
+}
+
+.praias{
+	font-size: 20px;
+	color: white;
+	background-color: MediumSeaGreen;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.praias-imagens{
+	text-align: center;
+}
+
+.praias-imagens img{
+	width: 300px;
+	height: 200px;
+}
+
+footer{
+	background-color: MediumSeaGreen;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+}

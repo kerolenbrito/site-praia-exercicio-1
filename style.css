@@ -8,43 +8,50 @@ body{
 }
 
 .imagem-background{
-	background-image: url("./imagens/background.jpg");
-	height: 100vh;
+	background-image: url("./imagens/background-1.jpg");
+	height: 70vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+    margin-bottom: 4px;
     }
 
+.logo{
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+
 .menu{
-	float: right;
-	margin-top: 10px;
+	float: left;
+	margin-top: 30px;
 	margin-right: 20px;
+	margin-left: -40px;
 }
 
 .menu dd{
 	display: inline-flex;
-	
 }
 
 .menu dd a{
-	color: white;
+	color: brown;
 	margin: 15px;
 	font-size: 20px;
 }
 
 .menu dd a:hover{
-	color: yellow;
+	color: blue;
 }
 
-.praias{
-	font-size: 20px;
+.praia{
+	font-size: 50px;
+	text-align: center;
 	color: white;
-	background-color: MediumSeaGreen;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 150px;
-	margin-bottom: 10px;
+	background: brown;
+	height: 200px;
+	padding-top: 80px;
 }
 
 .praias-imagens{
@@ -53,11 +60,11 @@ body{
 
 .praias-imagens img{
 	width: 300px;
-	height: 200px;
+	height: 250px;
 }
 
 footer{
-	background-color: MediumSeaGreen;
+	background-color: navy;
 	height: 60px;
 	display: flex;
 	align-items: center;
